@@ -17,5 +17,5 @@
       ]
     }
   },
-  "containerEnv": { "PYTHONPATH":"${localWorkspaceFolderBasename}/code/:${containerEnv:PYTHONPATH}"}
+  "containerEnv": { "PYTHONPATH":"/workspaces/${localWorkspaceFolderBasename}/code/}"}
 }
