@@ -18,6 +18,6 @@
     }
   },
   "containerEnv":{
-      "PYTHONPATH":"code/:$PYTHONPATH",
+      "PYTHONPATH":"/workspace/$RepositoryName/code/:$PYTHONPATH",
   }
 }
