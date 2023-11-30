@@ -5,10 +5,10 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "e",
+  "postCreateCommand": "",
   "customizations": {
     "codespaces": {
-      "openFiles": ["index.ipynb"]
+      "openFiles": []
     },
     "vscode": {
       "extensions": [
